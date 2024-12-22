@@ -1,0 +1,95 @@
+{
+    "name": "Pepe",
+    "projects": {
+      "title": "Projects",
+      "description": "Here are my projects",
+      "projectOne": {
+        "name": "Project 1",
+        "description": "This is the first project",
+        "image": "https://via.placeholder.com/300",
+        "github": "http://github.com/xaviza11",
+        "color": "#3498db"
+      },
+      "projectTwo": {
+        "name": "Project 2",
+        "description": "This is the second project",
+        "image": "https://via.placeholder.com/300",
+        "github": "http://github.com/xaviza11",
+        "color": "#9b59b6"
+      },
+      "projectThree": {
+        "name": "Project 3",
+        "description": "This is the third project",
+        "image": "null",
+        "github": "http://github.com/xaviza11",
+        "color": "#9b59b6"
+      }
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "message": "The route you searched for does not exist. Please return to the homepage.",
+      "seoTitle": "Error 404 - Page Not Found",
+      "seoDescription": "The page you are looking for is not available. Go back to the main page to explore the content."
+    },
+    "home": {
+      "seoTitle": "Home - My Portfolio",
+      "seoDescription": "Welcome to my portfolio. Discover my skills, experience, and featured projects."
+    },
+    "skills": {
+      "frontend": {
+        "title": "Frontend",
+        "js": "JavaScript",
+        "ts": "TypeScript",
+        "react": "React",
+        "svelte": "Svelte",
+        "vue": "Vue",
+        "reactNative": "React Native",
+        "css": "CSS",
+        "tailwind": "Tailwind"
+      },
+      "backend": {
+        "title": "Backend",
+        "nestJs": "Nest JS",
+        "fastify": "Fastify",
+        "fastApi": "FastApi",
+        "express": "Express"
+      },
+      "database": {
+        "title": "Databases",
+        "mongoDb": "MongoDB",
+        "sqlite": "SQLite"
+      },
+      "other": {
+        "title": "Other Skills",
+        "git": "Git",
+        "docker": "Docker",
+        "rust": "Rust"
+      }
+    },
+    "about": {
+      "seoTitle": "About Me - My Portfolio",
+      "seoDescription": "Learn more about me, my experience, skills, and professional background."
+    },
+    "navbar": {
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About Me"
+    },
+    "profile": {
+      "subtitle": "Web Developer",
+      "aboutTextPart1": "I am",
+      "aboutTextPart2": "a passionate web developer with great dedication. My goal has always been to combine creativity with technology to solve real problems and offer effective solutions in both frontend and backend, which allows me to approach projects from an integrated perspective and provide complete solutions.",
+      "description": "I am a developer passionate about creating modern and functional applications, with experience in both frontend and backend technologies."
+    },
+    "footer": {
+      "es": "Spanish",
+      "in": "English"
+    },
+    "controls": {
+      "previous": "Previous",
+      "next": "Next",
+      "stop": "Stop",
+      "restart": "Restart"
+    }
+  }
+  

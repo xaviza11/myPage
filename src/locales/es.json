@@ -1,0 +1,94 @@
+{
+    "name": "pepe",
+    "projects": {
+        "title": "Proyectos",
+        "description": "Aquí están mis proyectos",
+        "projectOne": {
+            "name": "Project 1",
+            "description": "This is the first project",
+            "image": "https://via.placeholder.com/300",
+            "github": "http://github.com/xaviza11",
+            "color": "#3498db"
+        },
+        "projectTwo": {
+            "name": "Project 2",
+            "description": "This is the second project",
+            "image": "https://via.placeholder.com/300",
+            "github": "http://github.com/xaviza11",
+            "color": "#9b59b6"
+        },
+        "projectThree": {
+            "name": "Project 3",
+            "description": "This is the third project",
+            "image": "null",
+            "github": "http://github.com/xaviza11",
+            "color": "#9b59b6"
+        }
+    },
+    "notFound": {
+        "title": "Página no encontrada",
+        "message": "La ruta que buscaste no existe. Por favor, regresa al inicio.",
+        "seoTitle": "Error 404 - Página no encontrada",
+        "seoDescription": "La página que estás buscando no está disponible. Vuelve a la página principal para explorar el contenido."
+      },
+    "home": {
+        "seoTitle": "Inicio - Mi Portafolio",
+        "seoDescription": "Bienvenido a mi portafolio. Descubre mis habilidades, experiencia y proyectos destacados."
+    },
+    "skills": {
+    "frontend": {
+      "title": "Frontend",
+      "js": "JavaScript",
+      "ts": "TypeScript",
+      "react": "React",
+      "svelte": "Svelte",
+      "vue": "Vue",
+      "reactNative": "React Native",
+      "css": "CSS",
+      "tailwind": "Tailwind"
+    },
+    "backend": {
+      "title": "Backend",
+      "nestJs": "Nest JS",
+      "fastify": "Fastify",
+      "fastApi": "FastApi",
+      "express": "Express"
+    },
+    "database": {
+      "title": "Bases de Datos",
+      "mongoDb": "MongoDB",
+      "sqlite": "SQLite"
+    },
+    "other": {
+      "title": "Otras Habilidades",
+      "git": "Git",
+      "docker": "Docker",
+      "rust": "Rust"
+    }
+  },
+  "about": {
+    "seoTitle": "Sobre mí - Mi Portafolio",
+    "seoDescription": "Conoce más sobre mí, mi experiencia, habilidades y trayectoria profesional."
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre Mi"
+  },
+  "profile": {
+    "subtitle": "Desarrollador web",
+    "aboutTextPart1": "Soy",
+    "aboutTextPart2": "un desarrollador web apasionado con una gran dedicación. Mi objetivo siempre ha sido combinar creatividad con tecnología para resolver problemas reales y ofrecer soluciones efectivas tanto de frontend como backend, lo que me permite abordar proyectos desde una perspectiva integral y ofrecer soluciones completas.",
+    "description": "Soy un desarrollador apasionado por crear aplicaciones modernas y funcionales, con experiencia en tecnologías frontend y backend."
+  },
+  "footer": {
+    "es": "Español",
+    "in": "Inglés"
+  },
+  "controls": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "stop": "Parar",
+    "restart": "Reiniciar"
+  }
+}
