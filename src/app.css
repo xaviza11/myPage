@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-highlight: #2ecc71;
+  --soft-gray: #d4d3d3;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color:  #212121;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Oswald';
+  color: var(--green-highlight);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lato';
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 600px;
+  color: #d4d3d3;
+}
+
+#app {
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+
+a {
+  font-family: 'Lato';
+  text-decoration: inherit;
+  font-size: 1rem;
+}
+
+.highlight {
+  color: var(--green-highlight);
+  font-weight: bold;
+}
+
+button {
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  color: white;
+  border: solid 1px var(--green-highlight);
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+@media (max-width: 916px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 0.65rem;
+  }
+
+  p, h4, button, a {
+    font-size: 0.55rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+  border-radius: 5px; 
+  border: 2px solid #000000; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #afafaf;
+}
+
+* {
+  scrollbar-width: thin; 
+  scrollbar-color: #afafaf #000000; 
+}
+

@@ -1,0 +1,101 @@
+{
+  "name": "Pepe",
+  "projects": {
+    "title": "Projects",
+    "description": "Here are my projects",
+    "projectOne": {
+      "name": "Ecommerce",
+      "description": "An e-commerce platform developed with Docker, Nginx, Nuxt, and Strapi. Includes email notifications, Stripe payments integration, and automated invoice generation.",
+      "image": "/myPage/images/Miler.png",
+      "github": "https://github.com/xaviza11/Miler",
+      "color": "rgba(46, 125, 50, 0.1)"
+    },
+    "projectTwo": {
+      "name": "Musapp",
+      "description": "A music application that allows users to play a virtual piano and playback MIDI files uploaded to the API. Features random melody generation capabilities.",
+      "image": "/myPage/images/pianoApp.png",
+      "github": "https://github.com/xaviza11/piano-frontend",
+      "color": "rgba(52, 152, 219, 0.1)"
+    },
+    "projectThree": {
+      "name": "Hispano",
+      "description": "Transpiler that converts Spanish-language code keywords into Rust's English equivalents, enabling code writing in Spanish.",
+      "image": "/myPage/images/hispano.webp",
+      "github": "http://github.com/xaviza11/Hispano",
+      "color": "rgba(255, 0, 0, 0.1)"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The route you searched for does not exist. Please return to the homepage.",
+    "seoTitle": "Error 404 - Page Not Found",
+    "seoDescription": "The page you are looking for is not available. Go back to the main page to explore the content."
+  },
+  "home": {
+    "seoTitle": "Home",
+    "seoDescription": "Welcome to my portfolio. Discover my skills, experience, and featured projects."
+  },
+  "skills": {
+    "frontend": {
+      "title": "Frontend",
+      "js": "JavaScript",
+      "ts": "TypeScript",
+      "react": "React",
+      "svelte": "Svelte",
+      "vue": "Vue",
+      "reactNative": "React Native",
+      "css": "CSS",
+      "tailwind": "Tailwind"
+    },
+    "backend": {
+      "title": "Backend",
+      "nestJs": "Nest JS",
+      "fastify": "Fastify",
+      "fastApi": "FastApi",
+      "express": "Express"
+    },
+    "database": {
+      "title": "Databases",
+      "mongoDb": "MongoDB",
+      "sqlite": "SQLite"
+    },
+    "other": {
+      "title": "Other Skills",
+      "git": "Git",
+      "docker": "Docker",
+      "rust": "Rust"
+    }
+  },
+  "about": {
+    "seoTitle": "About Me",
+    "seoDescription": "Learn more about me, my experience, skills, and professional background."
+  },
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+"profile": {
+    "subtitle": "Web Developer",
+    "aboutTextPart1": "I am",
+    "aboutHightLight": "Frontend and Backend",
+    "aboutTextPart2": "a passionate web developer, ",
+    "aboutTextPart3": " My goal has always been to combine creativity with technology to solve real problems and deliver effective solutions for both frontend and backend.",
+    "description": "I am a developer passionate about creating modern and functional applications, with experience in both frontend and backend technologies. I’ve been interested in programming for a long time, so I completed a short bootcamp. Afterward, since I didn’t feel fully prepared, I continued studying independently. I learned Python and some Rust. I am eager to work as a programmer and am proficient across the entire stack, both frontend and backend. On the frontend, my favorite technologies are React and Vue. For the backend, I prefer Next.js for its structure and Fastify for its performance."
+  },
+  "contact": {
+  "thanks": "Thank you for visiting my page!",
+  "press": "Press here"
+  },
+  "footer": {
+    "es": "Spanish",
+    "in": "English"
+  },
+  "controls": {
+    "previous": "Previous",
+    "next": "Next",
+    "stop": "Stop",
+    "restart": "Restart"
+  }
+}

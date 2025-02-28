@@ -1,0 +1,101 @@
+{
+    "name": "pepe",
+    "projects": {
+        "title": "Proyectos",
+        "description": "Aquí están mis proyectos",
+        "projectOne": {
+            "name": "Ecommerce",
+            "description": "Este es un ecommerce desarrollado con Docker, Nginx, Nuxt y Strapi. Además incluye envio de emails, pagos con stripe y crea las facturas.",
+            "image": "/myPage/images/Miler.png",
+            "github": "https://github.com/xaviza11/Miler",
+            "color": "rgba(46, 125, 50, 1)"
+        },
+        "projectTwo": {
+            "name": "Musapp",
+            "description": "Una pequeña aplicación que permite tocar el piano y reproducir canciones subidas a la api en formato MIDI. Además puedes generar pequeñás melodias de forma aleatoria",
+            "image": "/myPage/images/pianoApp.png",
+            "github": "https://github.com/xaviza11/piano-frontend",
+            "color": "rgba(52, 152, 219, 0.1)"
+        },
+        "projectThree": {
+            "name": "Hispano",
+            "description": "Transpilador que sirve para escribir codigo en español y pasar las palabras claves en español a las palabras clave en ingles de Rust.",
+            "image": "/myPage/images/hispano.webp",
+            "github": "http://github.com/xaviza11/Hispano",
+            "color": "rgba(255, 0, 0, 0.1)"
+        }
+    },
+    "notFound": {
+        "title": "Página no encontrada",
+        "message": "La ruta que buscaste no existe. Por favor, regresa al inicio.",
+        "seoTitle": "Error 404 - Página no encontrada",
+        "seoDescription": "La página que estás buscando no está disponible. Vuelve a la página principal para explorar el contenido."
+      },
+    "home": {
+        "seoTitle": "Inicio",
+        "seoDescription": "Bienvenido a mi portafolio. Descubre mis habilidades, experiencia y proyectos destacados."
+    },
+    "skills": {
+    "frontend": {
+      "title": "Frontend",
+      "js": "JavaScript",
+      "ts": "TypeScript",
+      "react": "React",
+      "svelte": "Svelte",
+      "vue": "Vue",
+      "reactNative": "React Native",
+      "css": "CSS",
+      "tailwind": "Tailwind"
+    },
+    "backend": {
+      "title": "Backend",
+      "nestJs": "Nest JS",
+      "fastify": "Fastify",
+      "fastApi": "FastApi",
+      "express": "Express"
+    },
+    "database": {
+      "title": "Bases de Datos",
+      "mongoDb": "MongoDB",
+      "sqlite": "SQLite"
+    },
+    "other": {
+      "title": "Otras Habilidades",
+      "git": "Git",
+      "docker": "Docker",
+      "rust": "Rust"
+    }
+  },
+  "about": {
+    "seoTitle": "Sobre mí",
+    "seoDescription": "Conoce más sobre mí, mi experiencia, habilidades y trayectoria profesional."
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "profile": {
+    "subtitle": "Desarrollador web",
+    "aboutTextPart1": "Soy",
+    "aboutHightLight": "Fontend y Backend",
+    "aboutTextPart2": "un desarrollador web apasionado, ",
+    "aboutTextPart3": " Mi objetivo siempre ha sido combinar creatividad con tecnología para resolver problemas reales y ofrecer soluciones efectivas tanto de frontend como backend.",
+    "description": "Soy un desarrollador apasionado por crear aplicaciones modernas y funcionales, con experiencia en tecnologías frontend y backend. Desde hace teimpo atrás me intereso la programación, así que realice un pequeño bootcamp, después de esto, como no me sentia preparadado me mantuve estudiando por mi cuenta. Aprendí phyton y también algo de Rust. Estoy interesado en trabajar como programador, conozco todo el stack, tanto front como backend."
+  },
+  "contact": {
+    "thanks": "¡Gracias por visitar mi página!",
+    "press": "Presiona aquí"
+  },
+  "footer": {
+    "es": "Español",
+    "in": "Inglés"
+  },
+  "controls": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "stop": "Parar",
+    "restart": "Reiniciar"
+  }
+}
