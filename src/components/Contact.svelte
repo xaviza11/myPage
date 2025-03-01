@@ -5,11 +5,9 @@
   import Lazy from 'svelte-lazy';
   import { t } from 'svelte-i18n';
 
-  export let email = "xaviza11@gmail.com";
-  export let phone = "+34 610 45 27 64";
-  export let github = "https://github.com/xaviza11";
-
-  export let name = "Xavier Zamora Lorente";
+  export const email = "xaviza11@gmail.com";
+  export const phone = "+34 610 45 27 64";
+  export const github = "https://github.com/xaviza11";
 
   let buttonPressed = false;
 </script>
