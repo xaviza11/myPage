@@ -8,7 +8,7 @@
 </script>
 
 <style>
-  #projects-container {
+  .projects-container {
     height: 100vh;
     width: 100vw;
     overflow-y: auto;
@@ -99,7 +99,7 @@
   }
 </style>
 
-<div id="projects-container">
+<div class="projects-container">
   {#each projects as project}
     <div class="project"> 
       <div class="project-content">

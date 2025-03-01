@@ -7,13 +7,13 @@
   <meta name="description" content={$t('notFound.seoDescription')} />
 </svelte:head>
 
-<main>
+<div class="not-found">
   <h1>{$t('notFound.title')}</h1>
   <p>{$t('notFound.message')}</p>
-</main>
+</div>
 
 <style>
-  main {
+  .not-found {
     display: flex;
     flex-direction: column;
     align-items: center;

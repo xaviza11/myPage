@@ -9,13 +9,13 @@
   <meta name="description" content={$t('home.seoDescription')} />
 </svelte:head>
 
-<div id="index-container">
+<div class="index-container">
   <Info />
   <Skills />
 </div>
 
 <style>
-  #index-container {
+  .index-container {
     height: 95vh;
     width: 78vw;
     display: flex;
@@ -38,7 +38,7 @@
   }
 
   @media (orientation: landscape) {
-    #index-container {
+    .index-container {
       flex-direction: row;
       justify-content: space-between;
       gap: 2vw;
@@ -46,7 +46,7 @@
   }
 
   @media (orientation: portrait) {
-    #index-container {
+    .index-container {
       flex-direction: column;
       justify-content: center;
       gap: 4vh;
@@ -54,7 +54,7 @@
   }
 
   @media (max-width: 916px) {
-    #index-container {
+    .index-container {
       width: 90vw;
     }
 }

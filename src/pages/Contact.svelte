@@ -8,12 +8,12 @@
     <meta name="description" content={$t('about.seoDescription')} />
   </svelte:head>
   
-  <div id="contact-container">
+  <div class="contact-container">
     <Contact />
   </div>
   
   <style>
-    #contact-container {
+    .contact-container {
         display: flex;
         justify-content: center;
         align-items: center;

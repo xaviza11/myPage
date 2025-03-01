@@ -8,28 +8,28 @@
   };
 </script>
 
-<div id="info-container">
-  <div id="personal-container">
+<div class="info-container">
+  <div class="personal-container">
     <Lazy height={300}>
-    <img src={profile.photo} alt="profile-photo" id="profile-photo" />
+    <img src={profile.photo} alt="profile-photo" class="profile-photo" />
     </Lazy>
-    <div id="profile-container">
+    <div class="profile-container">
       <h1>{profile.name}</h1>
       <h3 class="subtitle">{$t('profile.subtitle')}</h3>
     </div>
   </div>
-  <div id="about-container">
+  <div class="about-container">
     <p>{$t('profile.aboutTextPart1')} <span class="highlight">{profile.name}</span>, {$t('profile.aboutTextPart2')}<span class="highlight">{$t('profile.aboutHightLight')}</span>{$t('profile.aboutTextPart3')}</p>
   </div>
 </div>
 
 <style>
 
-#profile-container {
+.profile-container {
     width: 100vw;
   }
 
-  #info-container {
+  .info-container {
     width: 100%;
     width: 50vw;
     display: flex;
@@ -43,14 +43,14 @@
     text-align: left;
   }
 
-  #personal-container {
+  .personal-container {
     width: 30vw;
     display: flex;
     align-items: center;
     gap: 1rem;
   }
 
-  #profile-photo {
+  .profile-photo {
     width: 12vh;
     height: 12vh;
     border-radius: 50%;
@@ -65,7 +65,7 @@
     margin: 0;
   }
 
-  #about-container p {
+  .about-container p {
     color: white;
     width: 30vw;
     line-height: 1.5;
@@ -74,19 +74,19 @@
   }
 
   @media (orientation: landscape) {
-    #info-container {
+    .info-container {
       height: 75vh;
     }
   }
 
   @media (orientation: portrait) {
-    #personal-container {
+    .personal-container {
     width: 45vw;
   }
-  #about-container p {
+  .about-container p {
     width: 45vw;
   }
-  #info-container {
+  .info-container {
     gap: 1vh
   }
   }

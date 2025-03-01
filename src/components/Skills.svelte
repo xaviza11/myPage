@@ -38,9 +38,9 @@
   });
 </script>
 
-<div id="skills-container">
+<div class="skills-container">
   <div class="carousel-content" style="--active-index: {activeIndex}">
-    <div id="frontend-container" class="section">
+    <div class="frontend-container section">
       <h2>{$t('skills.frontend.title')}</h2>
       <div class="icons-container">
         <FontAwesomeIcon class="icon" icon={faReact} size="2x" />
@@ -50,7 +50,7 @@
         <FontAwesomeIcon class="icon" icon={faHtml5} size="2x" />
       </div>
     </div>
-    <div id="backend-container" class="section">
+    <div class="backend-container section">
       <h2>{$t('skills.backend.title')}</h2>
       <div class="icons-container">
         <FontAwesomeIcon class="icon" icon={faNode} size="2x" />
@@ -59,7 +59,7 @@
         <FontAwesomeIcon class="icon" icon={faRust} size="2x" />
       </div>
     </div>
-    <div id="other-container" class="section">
+    <div class="other-container section">
       <h2>{$t('skills.other.title')}</h2>
       <div class="icons-container">
         <FontAwesomeIcon class="icon" icon={faGitAlt} size="2x" />
@@ -81,7 +81,7 @@
 </div>
 
 <style>
-  #skills-container {
+  .skills-container {
     height: 38vh;
     width: 100vw;
     display: flex;
@@ -93,7 +93,7 @@
   }
 
   @media (min-width: 768px) {
-    #skills-container {
+    .skills-container {
       height: 40vh;
       width: 50vw;
     }
@@ -146,7 +146,7 @@
   }
 
   @media (orientation: landscape) {
-    #skills-container {
+    .skills-container {
       height: 75vh;
     }
   }
