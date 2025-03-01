@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3.5vh;
   font-weight: bold;
   font-family: 'Oswald';
   color: var(--green-highlight);
@@ -40,21 +40,21 @@ h1 {
 
 h2 {
   font-family: 'Oswald';
-  font-size: 1.6rem;
+  font-size: 2.5vh;
   margin: 0;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.8vh;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.6vh;
 }
 
 p {
   font-family: 'Lato';
-  font-size: 1.25rem;
+  font-size: 1.8vh;
   line-height: 1.6;
   max-width: 600px;
   color: #d4d3d3;
@@ -69,7 +69,7 @@ p {
 a {
   font-family: 'Lato';
   text-decoration: inherit;
-  font-size: 1rem;
+  font-size: 1.8vh;
 }
 
 .highlight {
@@ -88,24 +88,24 @@ button {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  font-size: 1rem;
+  font-size: 1.6vh;
 }
 
 @media (max-width: 916px) {
   h1 {
-    font-size: 1rem;
+    font-size: 4vh;
   }
 
   h2 {
-    font-size: 0.8rem;
+    font-size: 3vh;
   }
 
   h3 {
-    font-size: 0.65rem;
+    font-size: 2.5vh;
   }
 
   p, h4, button, a {
-    font-size: 0.55rem;
+    font-size: 2vh;
   }
 }
 
