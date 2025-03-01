@@ -3,6 +3,7 @@
     "projects": {
         "title": "Proyectos",
         "description": "Aquí están mis proyectos",
+        "loading": "Cargando....",
         "projectOne": {
             "name": "Ecommerce",
             "description": "Este es un ecommerce desarrollado con Docker, Nginx, Nuxt y Strapi. Además incluye envio de emails, pagos con stripe y crea las facturas.",
