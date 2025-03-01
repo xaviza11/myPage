@@ -2,6 +2,7 @@
   import { faGithub } from "@fortawesome/free-brands-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
   import Lazy from 'svelte-lazy';
+  import { t } from "svelte-i18n";
 
   export let projects: any = [];
 </script>
@@ -34,6 +35,11 @@
     gap: 1vh;
   }
 
+  .img-container {
+    height: 20vh;
+    width: 30vh;
+  }
+
   .project img {
     height: 20vh;
     width: 30vh;
@@ -47,6 +53,11 @@
       flex-direction: column-reverse;
       gap: 5vh
     }
+
+  .img-container {
+    width: 40vh;
+  }
+
     .project img {
       width: 40vh;
     }
@@ -57,6 +68,12 @@
   }
 
   @media (orientation: landscape) {
+
+  .img-container {
+    height: 45vh;
+    width: 80vh;
+  }
+
     .project img {
       width: 80vh;
       height: 45vh;
@@ -95,9 +112,11 @@
         {/if}
       </div>
       {#if project.image}
-      <Lazy height={300}>
+      <div class="img-container">
+      <Lazy height={300} placeholder={$t('projects.loading')}>
         <img src={project.image} alt={project.name} />
       </Lazy>
+    </div>
       {/if}
     </div>
   {/each}
