@@ -2,7 +2,7 @@
   import { faReact, faVuejs, faCss3Alt, faJs, faHtml5, faNode, faGitAlt, faDocker, faPython, faLinux, faRust } from "@fortawesome/free-brands-svg-icons";
   import { faDatabase, faTerminal } from "@fortawesome/free-solid-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
-  import { t } from "svelte-i18n"; // Importamos la función para traducciones dinámicas
+  import { t } from "svelte-i18n";
 
   let activeIndex = 0;
   const containers = ["frontend-container", "backend-container", "other-container"];
